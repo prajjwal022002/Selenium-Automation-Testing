@@ -18,5 +18,5 @@ Java, Selenium WebDriver, TestNG, Maven, Apache POI
 
 ## How to run
 Import as a Maven project in Eclipse. Right-click `RegressionSuite.xml` or `SmokeSuite.xml`
-and run as TestNG Suite. The tests take a `browser` parameter (chrome, edge or firefox),
-so add `<parameter name="browser" value="chrome"/>` to the suite file.
+and run as TestNG Suite. To change the browser, set the `browser` parameter in the suite
+file to chrome, edge or firefox.
